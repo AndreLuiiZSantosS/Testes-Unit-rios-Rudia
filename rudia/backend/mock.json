@@ -1,0 +1,4185 @@
+[
+  {
+    "model": "sessions.session",
+    "pk": "pli6a8sartjjyhn6jza84g05jddrx9g2",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln4y5qSnjNYu7YXB5AtxUmFuDtESgHtm5n3EhHXpcZ1lDlOWZyFEoffjTA9SttAvmO7dZl6W-aJ5KbInQ557bk8L7v7d1Bx1G9NYMhol8CdyClDx2SLClZ7pbVlXQg4m6ANswWVg2MfPNoAaIENIIj3B8ZXNyo:1vk4HP:OdGOsQBg2QNsDIs1hh1qOp7qNsdrKzdb9jTp5TMYcLw",
+      "expire_date": "2026-02-08T17:52:07.623Z"
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$NEBG3UT81x6bzmRhKc1MaN$2PFrhZRgNikWKtOlnzWSe2yd6p8WI6Y2MFroGRyxL4U=",
+      "last_login": "2026-01-25T17:52:07.618Z",
+      "is_superuser": true,
+      "username": "adm",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-01-25T17:51:28.728Z",
+      "nome": "adm",
+      "email": "adm@adm.com",
+      "telefone": null,
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "ADMINISTRADOR",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$46GMAuS0cqfpw4UB7m2FY7$CNzl+pfGlYbkNOIIYDNtlIq3DUBQI1ty8r8qR+Y1p+o=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "joao_silva",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T18:05:53.998Z",
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "telefone": "11999998888",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "RUDIERO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$JinGPe1RrSydkN1qpjhUWR$fq9faoq0rUJDt2Jw4oX1O76mB1TPJY4SmXG5vJTTJw8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "hotel_praia",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T18:07:45.731Z",
+      "nome": "Hotel Praia",
+      "email": "contato@hotelpraia.com",
+      "telefone": "11988887777",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "PARCEIRO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wiJnrhOCklMBPQeRj0tHO6$pv0hf1uAdysKSWYLIOMvyWp9zlFT+/S1gZ2QZHlIX54=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "camaroes_rest",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T18:11:47.011Z",
+      "nome": "Camarões Restaurante",
+      "email": "contato@camaroes.com.br",
+      "telefone": "8432192424",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "PARCEIRO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$TZCOcj252ku4lfvF4rESBu$XJKnA/YXRA74otYEs3aStbXzeG+xkvAxxbcH1TQih0c=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "buggytour",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T18:13:59.445Z",
+      "nome": "Buggy Tour RN",
+      "email": "contato@buggytour.com.br",
+      "telefone": "84991234567",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "PARCEIRO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$P6d0TdiB134Z78ad90g5Cq$2SbWFKhy6jBoGcGxgmapQNpFPfprszPtWcHLkPMP4Ro=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pedro_fonseca",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T19:42:40.394Z",
+      "nome": "Pedro Fonseca",
+      "email": "pedro@email.com",
+      "telefone": "1155778866",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "RUDIERO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wc6xT6FaT7W61NvonvkM9t$aKPDGdMiyaF9uImxQxyDGqiep8NTMyxm5/1h5HzFdcg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "gabriel_barbosa",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T19:43:44.693Z",
+      "nome": "Gabriel Barbosa",
+      "email": "gabriel@email.com",
+      "telefone": "1155478866",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "RUDIERO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wpGktVverLsZiK1zZeTfVZ$YUqxyYVqTgwa9aGvnqsRkgX4qJ1+VnfMS0pQmXSGM+s=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mateus_miranda",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T19:44:05.777Z",
+      "nome": "Mateus Miranda",
+      "email": "mateus@email.com",
+      "telefone": "1155448866",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "RUDIERO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$M8svafntyv1Tdxn19DS7ny$PX7sXTb/nvTR0TGT4jMMDr1QUn7ElidwnS9LDz8G1eQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "isaac_lira",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-25T19:44:29.763Z",
+      "nome": "Isaac Lira",
+      "email": "isaac@email.com",
+      "telefone": "1155440066",
+      "foto_perfil": "",
+      "url_instagram": null,
+      "url_facebook": null,
+      "url_x": null,
+      "url_tiktok": null,
+      "tipo_usuario": "RUDIERO",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuarios.rudiero",
+    "fields": {
+      "usuario_ptr": [
+        "gabriel@email.com"
+      ],
+      "data_nascimento": "1995-03-15",
+      "genero": "M"
+    }
+  },
+  {
+    "model": "usuarios.rudiero",
+    "fields": {
+      "usuario_ptr": [
+        "isaac@email.com"
+      ],
+      "data_nascimento": "1995-03-15",
+      "genero": "M"
+    }
+  },
+  {
+    "model": "usuarios.rudiero",
+    "fields": {
+      "usuario_ptr": [
+        "joao@email.com"
+      ],
+      "data_nascimento": "1995-03-15",
+      "genero": "M"
+    }
+  },
+  {
+    "model": "usuarios.rudiero",
+    "fields": {
+      "usuario_ptr": [
+        "mateus@email.com"
+      ],
+      "data_nascimento": "1995-03-15",
+      "genero": "M"
+    }
+  },
+  {
+    "model": "usuarios.rudiero",
+    "fields": {
+      "usuario_ptr": [
+        "pedro@email.com"
+      ],
+      "data_nascimento": "1995-03-15",
+      "genero": "M"
+    }
+  },
+  {
+    "model": "usuarios.parceiro",
+    "fields": {
+      "usuario_ptr": [
+        "contato@buggytour.com.br"
+      ],
+      "cnpj": "34567890000112",
+      "ativo": false,
+      "data_admissao": null
+    }
+  },
+  {
+    "model": "usuarios.parceiro",
+    "fields": {
+      "usuario_ptr": [
+        "contato@camaroes.com.br"
+      ],
+      "cnpj": "23456789000101",
+      "ativo": false,
+      "data_admissao": null
+    }
+  },
+  {
+    "model": "usuarios.parceiro",
+    "fields": {
+      "usuario_ptr": [
+        "contato@hotelpraia.com"
+      ],
+      "cnpj": "12345678000190",
+      "ativo": false,
+      "data_admissao": null
+    }
+  },
+  {
+    "model": "localizacao.estado",
+    "pk": 1,
+    "fields": {
+      "nome": "Rio Grande do Norte",
+      "sigla": "RN"
+    }
+  },
+  {
+    "model": "localizacao.estado",
+    "pk": 2,
+    "fields": {
+      "nome": "Paraíba",
+      "sigla": "PB"
+    }
+  },
+  {
+    "model": "localizacao.cidade",
+    "pk": 1,
+    "fields": {
+      "nome": "Natal",
+      "estado": 1
+    }
+  },
+  {
+    "model": "localizacao.cidade",
+    "pk": 2,
+    "fields": {
+      "nome": "Parnamirim",
+      "estado": 1
+    }
+  },
+  {
+    "model": "localizacao.cidade",
+    "pk": 3,
+    "fields": {
+      "nome": "Pipa",
+      "estado": 1
+    }
+  },
+  {
+    "model": "localizacao.cidade",
+    "pk": 4,
+    "fields": {
+      "nome": "São Miguel do Gostoso",
+      "estado": 1
+    }
+  },
+  {
+    "model": "localizacao.cidade",
+    "pk": 5,
+    "fields": {
+      "nome": "João Pessoa",
+      "estado": 2
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 13,
+    "fields": {
+      "cep": "59020100",
+      "logradouro": "Rua Chile",
+      "numero": "123",
+      "complemento": "Loja 1"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 14,
+    "fields": {
+      "cep": "59090200",
+      "logradouro": "Avenida Praia de Ponta Negra",
+      "numero": "500",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 15,
+    "fields": {
+      "cep": "59090100",
+      "logradouro": "Rua Doutor Manoel Augusto Bezerra de Araújo",
+      "numero": "780",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 16,
+    "fields": {
+      "cep": "59014200",
+      "logradouro": "Avenida Engenheiro Roberto Freire",
+      "numero": "2610",
+      "complemento": "Capim Macio"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 17,
+    "fields": {
+      "cep": "59090000",
+      "logradouro": "Rua Presidente Café Filho",
+      "numero": "90",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 18,
+    "fields": {
+      "cep": "59082100",
+      "logradouro": "Avenida Hermes da Fonseca",
+      "numero": "1445",
+      "complemento": "Tirol"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 19,
+    "fields": {
+      "cep": "59090300",
+      "logradouro": "Via Costeira",
+      "numero": "8100",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 20,
+    "fields": {
+      "cep": "59092100",
+      "logradouro": "Avenida Senador Salgado Filho",
+      "numero": "3000",
+      "complemento": "Candelária"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 21,
+    "fields": {
+      "cep": "59014100",
+      "logradouro": "Avenida Prudente de Morais",
+      "numero": "6200",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 22,
+    "fields": {
+      "cep": "59020200",
+      "logradouro": "Rua Princesa Isabel",
+      "numero": "415",
+      "complemento": "Centro"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 23,
+    "fields": {
+      "cep": "59090150",
+      "logradouro": "Rua Praia de Pipa",
+      "numero": "1200",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 24,
+    "fields": {
+      "cep": "59067300",
+      "logradouro": "Avenida Ayrton Senna",
+      "numero": "5500",
+      "complemento": "Neópolis"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 25,
+    "fields": {
+      "cep": "59090400",
+      "logradouro": "Rua Ismael Pereira da Silva",
+      "numero": "250",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 26,
+    "fields": {
+      "cep": "59092000",
+      "logradouro": "Avenida Roberto Freire",
+      "numero": "4200",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 27,
+    "fields": {
+      "cep": "59014300",
+      "logradouro": "Rua Doutor José Bonifácio",
+      "numero": "300",
+      "complemento": "Petrópolis"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 28,
+    "fields": {
+      "cep": "59090500",
+      "logradouro": "Rua Maria Lacerda Montenegro",
+      "numero": "800",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 29,
+    "fields": {
+      "cep": "59020300",
+      "logradouro": "Avenida Deodoro da Fonseca",
+      "numero": "740",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 30,
+    "fields": {
+      "cep": "59090600",
+      "logradouro": "Rua Elisa Coelho",
+      "numero": "350",
+      "complemento": "Ponta Negra"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 31,
+    "fields": {
+      "cep": "59014500",
+      "logradouro": "Avenida Bernardo Vieira",
+      "numero": "1800",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 32,
+    "fields": {
+      "cep": "59092200",
+      "logradouro": "Rua dos Coqueiros",
+      "numero": "450",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 33,
+    "fields": {
+      "cep": "59082200",
+      "logradouro": "Avenida Amintas Barros",
+      "numero": "2100",
+      "complemento": "Lagoa Nova"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 34,
+    "fields": {
+      "cep": "59020400",
+      "logradouro": "Rua Santo Antônio",
+      "numero": "520",
+      "complemento": "Centro"
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 35,
+    "fields": {
+      "cep": "59090700",
+      "logradouro": "Rua Paulo Freire",
+      "numero": "950",
+      "complemento": null
+    }
+  },
+  {
+    "model": "localizacao.endereco",
+    "pk": 36,
+    "fields": {
+      "cep": "59014600",
+      "logradouro": "Avenida Campos Sales",
+      "numero": "1500",
+      "complemento": null
+    }
+  },
+  {
+    "model": "servicos.categoria",
+    "pk": 1,
+    "fields": {
+      "nome": "Lazer"
+    }
+  },
+  {
+    "model": "servicos.categoria",
+    "pk": 2,
+    "fields": {
+      "nome": "Hospedagem"
+    }
+  },
+  {
+    "model": "servicos.categoria",
+    "pk": 3,
+    "fields": {
+      "nome": "Transporte"
+    }
+  },
+  {
+    "model": "servicos.categoria",
+    "pk": 4,
+    "fields": {
+      "nome": "Alimentação"
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 1,
+    "fields": {
+      "nome": "Conforto",
+      "descricao": "Conforto",
+      "categoria": 2
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 2,
+    "fields": {
+      "nome": "Café da manhã",
+      "descricao": "Café da manhã incluso",
+      "categoria": 2
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 3,
+    "fields": {
+      "nome": "Piscina",
+      "descricao": "Piscina disponível",
+      "categoria": 2
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 4,
+    "fields": {
+      "nome": "Wi-Fi",
+      "descricao": "Internet sem fio gratuita",
+      "categoria": 2
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 5,
+    "fields": {
+      "nome": "Estacionamento",
+      "descricao": "Estacionamento gratuito",
+      "categoria": 2
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 6,
+    "fields": {
+      "nome": "Praia",
+      "descricao": "Atividades de praia",
+      "categoria": 1
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 7,
+    "fields": {
+      "nome": "Aventura",
+      "descricao": "Atividades de aventura",
+      "categoria": 1
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 8,
+    "fields": {
+      "nome": "Família",
+      "descricao": "Adequado para famílias",
+      "categoria": 1
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 9,
+    "fields": {
+      "nome": "Ecoturismo",
+      "descricao": "Turismo ecológico",
+      "categoria": 1
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 10,
+    "fields": {
+      "nome": "Noturno",
+      "descricao": "Atividades noturnas",
+      "categoria": 1
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 11,
+    "fields": {
+      "nome": "Frutos do mar",
+      "descricao": "Especializado em frutos do mar",
+      "categoria": 4
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 12,
+    "fields": {
+      "nome": "Vegano",
+      "descricao": "Opções veganas disponíveis",
+      "categoria": 4
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 13,
+    "fields": {
+      "nome": "Buffet",
+      "descricao": "Sistema de buffet",
+      "categoria": 4
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 14,
+    "fields": {
+      "nome": "À la carte",
+      "descricao": "Serviço à la carte",
+      "categoria": 4
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 15,
+    "fields": {
+      "nome": "Vista panorâmica",
+      "descricao": "Vista privilegiada",
+      "categoria": 4
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 16,
+    "fields": {
+      "nome": "Transfer",
+      "descricao": "Serviço de transfer",
+      "categoria": 3
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 17,
+    "fields": {
+      "nome": "Ar condicionado",
+      "descricao": "Veículo com ar condicionado",
+      "categoria": 3
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 18,
+    "fields": {
+      "nome": "Guia",
+      "descricao": "Guia turístico incluso",
+      "categoria": 3
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 19,
+    "fields": {
+      "nome": "Flexível",
+      "descricao": "Horários flexíveis",
+      "categoria": 3
+    }
+  },
+  {
+    "model": "servicos.tag",
+    "pk": 20,
+    "fields": {
+      "nome": "Grupo",
+      "descricao": "Atende grupos",
+      "categoria": 3
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 1,
+    "fields": {
+      "nome": "Camarões Restaurante Praia",
+      "descricao": "Restaurante especializado em frutos do mar com vista para o mar. Ambiente sofisticado e aconchegante, ideal para jantares românticos ou em família. Pratos preparados com ingredientes frescos e receitas tradicionais da culinária potiguar.",
+      "capacidade_maxima": 80,
+      "preco_minimo": "50.00",
+      "preco_maximo": "150.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/camaroes_potiguar_Nt2rfvo.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:13:06.618Z",
+      "parceiro": [
+        "contato@camaroes.com.br"
+      ],
+      "categoria": 4,
+      "cidade": 1,
+      "endereco": 13,
+      "tags": [
+        11,
+        15,
+        14
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 2,
+    "fields": {
+      "nome": "Bistrô Vegano Natal",
+      "descricao": "Restaurante 100% vegano com cardápio variado e criativo. Oferecemos pratos saudáveis, saborosos e sustentáveis, com ingredientes orgânicos e locais. Ambiente moderno e descontraído.",
+      "capacidade_maxima": 50,
+      "preco_minimo": "35.00",
+      "preco_maximo": "80.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/alimentacao-vegana_tcyfY2E.jpg",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:08:32.044Z",
+      "parceiro": [
+        "contato@camaroes.com.br"
+      ],
+      "categoria": 4,
+      "cidade": 1,
+      "endereco": 14,
+      "tags": [
+        12,
+        14
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 4,
+    "fields": {
+      "nome": "Mangai Restaurante",
+      "descricao": "Tradicional restaurante regional com buffet de comida típica nordestina. Ambiente rústico e acolhedor com decoração típica. Destaque para a tapioca, carne de sol e peixes regionais.",
+      "capacidade_maxima": 150,
+      "preco_minimo": "30.00",
+      "preco_maximo": "55.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/mangai_ByC7zwO.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:22:15.955Z",
+      "parceiro": [
+        "contato@camaroes.com.br"
+      ],
+      "categoria": 4,
+      "cidade": 1,
+      "endereco": 16,
+      "tags": [
+        13,
+        11
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 5,
+    "fields": {
+      "nome": "Mirante Sunset Restaurante",
+      "descricao": "Restaurante com vista panorâmica para o pôr do sol. Menu à la carte com opções de frutos do mar, carnes nobres e massas artesanais. Ambiente romântico com música ao vivo.",
+      "capacidade_maxima": 60,
+      "preco_minimo": "70.00",
+      "preco_maximo": "180.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/Mirante-tem-lindos-locais-para-a-pessoa-curtir-o-pôr-do-sol-scaled_jjnayvY.jpg",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:25:14.607Z",
+      "parceiro": [
+        "contato@camaroes.com.br"
+      ],
+      "categoria": 4,
+      "cidade": 1,
+      "endereco": 17,
+      "tags": [
+        11,
+        15,
+        14
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 6,
+    "fields": {
+      "nome": "Tábua de Carne Premium",
+      "descricao": "Churrascaria especializada em cortes nobres e carnes maturadas. Sistema de rodízio completo com buffet de acompanhamentos. Ambiente sofisticado e atendimento diferenciado.",
+      "capacidade_maxima": 100,
+      "preco_minimo": "60.00",
+      "preco_maximo": "120.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/tabua_carne_restaurante_lNt2qMQ.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:39:31.934Z",
+      "parceiro": [
+        "contato@camaroes.com.br"
+      ],
+      "categoria": 4,
+      "cidade": 1,
+      "endereco": 18,
+      "tags": [
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 7,
+    "fields": {
+      "nome": "Passeio de Buggy pelas Dunas",
+      "descricao": "Emocionante passeio de buggy pelas dunas de Genipabu. Inclui descida de skibunda, banho de lagoa e visita ao dromedário. Duração aproximada de 4 horas com guia experiente.",
+      "capacidade_maxima": 4,
+      "preco_minimo": "200.00",
+      "preco_maximo": "350.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/passeio_buggy_genipabu_zuMsrI9.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:27:15.941Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 1,
+      "cidade": 1,
+      "endereco": 19,
+      "tags": [
+        7,
+        8,
+        6
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 8,
+    "fields": {
+      "nome": "Mergulho em Maracajaú",
+      "descricao": "Experiência de mergulho nos famosos parrachos de Maracajaú. Inclui transporte, equipamentos e instrutor credenciado. Ideal para iniciantes e experientes. Descubra a vida marinha do nordeste brasileiro.",
+      "capacidade_maxima": 12,
+      "preco_minimo": "150.00",
+      "preco_maximo": "300.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/mergulho_maracajau_J4OTlYt.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:22:50.203Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 1,
+      "cidade": 1,
+      "endereco": 20,
+      "tags": [
+        7,
+        9,
+        6
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 9,
+    "fields": {
+      "nome": "Passeio de Catamarã ao Pôr do Sol",
+      "descricao": "Navegação tranquila pelo Rio Potengi ao pôr do sol. Inclui bebidas e petiscos a bordo. Ambiente romântico com música ambiente. Duração de 2 horas.",
+      "capacidade_maxima": 30,
+      "preco_minimo": "80.00",
+      "preco_maximo": "120.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/passeio_barco_pitangui_Ch7e459.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:28:00.631Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 1,
+      "cidade": 1,
+      "endereco": 21,
+      "tags": [
+        8,
+        6
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 10,
+    "fields": {
+      "nome": "Tour Histórico pelo Centro de Natal",
+      "descricao": "Passeio guiado pelos principais pontos históricos e culturais de Natal. Visita à Fortaleza dos Reis Magos, Centro de Turismo e Teatro Alberto Maranhão. Inclui guia bilíngue e transporte.",
+      "capacidade_maxima": 20,
+      "preco_minimo": "60.00",
+      "preco_maximo": "100.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/tour_natal_sUgvLcj.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:31:55.196Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 1,
+      "cidade": 1,
+      "endereco": 22,
+      "tags": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 11,
+    "fields": {
+      "nome": "Festa no Chaplin Beer Garden",
+      "descricao": "Casa noturna com música ao vivo e cerveja artesanal. Ambiente descontraído com food trucks e área externa. Programação variada com bandas locais e DJs.",
+      "capacidade_maxima": 200,
+      "preco_minimo": "30.00",
+      "preco_maximo": "80.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/vista-do-deck-do-chaplin_2Kqemcb.jpg",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:14:27.672Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 1,
+      "cidade": 1,
+      "endereco": 23,
+      "tags": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 12,
+    "fields": {
+      "nome": "Passeio Ecológico Parque das Dunas",
+      "descricao": "Trilha ecológica guiada pelo maior parque urbano de Mata Atlântica do Brasil. Observação de fauna e flora nativa. Ideal para famílias e amantes da natureza. Duração de 3 horas.",
+      "capacidade_maxima": 25,
+      "preco_minimo": "40.00",
+      "preco_maximo": "70.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/lago-bosque-dos-namorados_rDpqE3D.jpg",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:26:06.961Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 1,
+      "cidade": 1,
+      "endereco": 24,
+      "tags": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 13,
+    "fields": {
+      "nome": "Transfer Aeroporto Hotel",
+      "descricao": "Serviço de transfer executivo do aeroporto para hotéis em Natal. Veículos confortáveis com ar condicionado. Motoristas profissionais e pontualidade garantida. Atendimento 24 horas.",
+      "capacidade_maxima": 4,
+      "preco_minimo": "50.00",
+      "preco_maximo": "80.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/transfer_aeroporto_MYnbimp.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:34:05.610Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 3,
+      "cidade": 1,
+      "endereco": 25,
+      "tags": [
+        17,
+        16
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 14,
+    "fields": {
+      "nome": "Van Executiva para Grupos",
+      "descricao": "Transporte em van executiva para grupos de até 15 pessoas. Ideal para passeios em grupo, eventos corporativos e excursões. Veículo equipado com ar condicionado e som ambiente.",
+      "capacidade_maxima": 15,
+      "preco_minimo": "300.00",
+      "preco_maximo": "500.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/van_executiva_passeio_vTjGRLo.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:40:17.711Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 3,
+      "cidade": 1,
+      "endereco": 26,
+      "tags": [
+        17,
+        20
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 15,
+    "fields": {
+      "nome": "Tour Privativo com Guia",
+      "descricao": "Serviço de transporte privativo com motorista e guia turístico bilíngue. Roteiro flexível e personalizado conforme preferências do cliente. Carro executivo com ar condicionado.",
+      "capacidade_maxima": 4,
+      "preco_minimo": "400.00",
+      "preco_maximo": "700.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/transfer_pipa_j0FLULo.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:32:59.434Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 3,
+      "cidade": 1,
+      "endereco": 27,
+      "tags": [
+        17,
+        19,
+        18
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 17,
+    "fields": {
+      "nome": "Aluguel de Carro com Motorista",
+      "descricao": "Serviço de aluguel de veículo com motorista profissional. Disponibilidade por hora, diária ou período. Ideal para executivos e turistas que preferem não dirigir. Veículos de diversas categorias.",
+      "capacidade_maxima": 4,
+      "preco_minimo": "200.00",
+      "preco_maximo": "600.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/aluguel_carros_YsV6MxW.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:02:56.521Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 3,
+      "cidade": 1,
+      "endereco": 29,
+      "tags": [
+        17,
+        19
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 19,
+    "fields": {
+      "nome": "Hotel Praia Dourada",
+      "descricao": "Hotel à beira-mar com quartos confortáveis e vista panorâmica. Café da manhã incluso, piscina aquecida, academia e Wi-Fi gratuito. Estacionamento privativo disponível. Ideal para casais e famílias.",
+      "capacidade_maxima": 100,
+      "preco_minimo": "250.00",
+      "preco_maximo": "500.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/hotel_praia_rq7sn6O.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:21:19.918Z",
+      "parceiro": [
+        "contato@hotelpraia.com"
+      ],
+      "categoria": 2,
+      "cidade": 1,
+      "endereco": 31,
+      "tags": [
+        2,
+        1,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 20,
+    "fields": {
+      "nome": "Pousada Recanto do Sol",
+      "descricao": "Pousada aconchegante em Ponta Negra. Quartos simples e limpos com ar condicionado. Café da manhã regional incluso. Wi-Fi gratuito e estacionamento. Ambiente familiar e acolhedor.",
+      "capacidade_maxima": 30,
+      "preco_minimo": "120.00",
+      "preco_maximo": "200.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/pousada_recanto_sol_fXw5iZX.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:35:42.294Z",
+      "parceiro": [
+        "contato@hotelpraia.com"
+      ],
+      "categoria": 2,
+      "cidade": 1,
+      "endereco": 32,
+      "tags": [
+        2,
+        1,
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 21,
+    "fields": {
+      "nome": "Resort All Inclusive Natal",
+      "descricao": "Resort de luxo all inclusive na Via Costeira. Múltiplas piscinas, restaurantes variados, spa, academia e recreação infantil. Café da manhã, almoço e jantar inclusos. Estacionamento e Wi-Fi gratuitos.",
+      "capacidade_maxima": 300,
+      "preco_minimo": "600.00",
+      "preco_maximo": "1200.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/hospedagem_SZhThdb.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:30:08.798Z",
+      "parceiro": [
+        "contato@hotelpraia.com"
+      ],
+      "categoria": 2,
+      "cidade": 1,
+      "endereco": 33,
+      "tags": [
+        2,
+        1,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 22,
+    "fields": {
+      "nome": "Apart Hotel Lagoa Nova",
+      "descricao": "Apart hotel com cozinha equipada nos apartamentos. Ideal para longas estadias. Piscina, academia, lavanderia e estacionamento. Wi-Fi gratuito em todas as áreas. Próximo a shoppings e restaurantes.",
+      "capacidade_maxima": 50,
+      "preco_minimo": "180.00",
+      "preco_maximo": "350.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/hotel_executivo_tdKk2Rp.png",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:04:59.895Z",
+      "parceiro": [
+        "contato@hotelpraia.com"
+      ],
+      "categoria": 2,
+      "cidade": 1,
+      "endereco": 34,
+      "tags": [
+        1,
+        5,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 23,
+    "fields": {
+      "nome": "Hostel Mochileiro Natal",
+      "descricao": "Hostel econômico com dormitórios compartilhados e quartos privativos. Área comum com cozinha compartilhada, terraço e lounge. Wi-Fi gratuito. Ambiente jovem e descontraído. Café da manhã incluso.",
+      "capacidade_maxima": 40,
+      "preco_minimo": "40.00",
+      "preco_maximo": "100.00",
+      "ativo": true,
+      "imagem_capa": "fotos_servico/quarto-compartilhado-guaxe-01_dtatYB1.jpg",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T19:17:21.081Z",
+      "parceiro": [
+        "contato@hotelpraia.com"
+      ],
+      "categoria": 2,
+      "cidade": 1,
+      "endereco": 35,
+      "tags": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "moderacao.proposta",
+    "pk": 1,
+    "fields": {
+      "comentario_moderador": null,
+      "status_proposta": "EA",
+      "data_criacao": "2026-01-25T18:07:46.046Z",
+      "data_analise": null,
+      "moderador": null,
+      "content_type": [
+        "usuarios",
+        "parceiro"
+      ],
+      "object_id": 4
+    }
+  },
+  {
+    "model": "moderacao.proposta",
+    "pk": 2,
+    "fields": {
+      "comentario_moderador": null,
+      "status_proposta": "EA",
+      "data_criacao": "2026-01-25T18:11:47.321Z",
+      "data_analise": null,
+      "moderador": null,
+      "content_type": [
+        "usuarios",
+        "parceiro"
+      ],
+      "object_id": 5
+    }
+  },
+  {
+    "model": "moderacao.proposta",
+    "pk": 3,
+    "fields": {
+      "comentario_moderador": null,
+      "status_proposta": "EA",
+      "data_criacao": "2026-01-25T18:13:59.754Z",
+      "data_analise": null,
+      "moderador": null,
+      "content_type": [
+        "usuarios",
+        "parceiro"
+      ],
+      "object_id": 6
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-01-25T17:55:45.812Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "usuarios",
+        "rudiero"
+      ],
+      "object_id": "2",
+      "object_repr": "Rudiero: @gbarbosa",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-01-25T18:02:57.390Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "usuarios",
+        "rudiero"
+      ],
+      "object_id": "2",
+      "object_repr": "Rudiero: @gbarbosa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-01-25T18:15:12.453Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "categoria"
+      ],
+      "object_id": "1",
+      "object_repr": "Lazer",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-01-25T18:15:16.737Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "categoria"
+      ],
+      "object_id": "2",
+      "object_repr": "Hospedagem",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-01-25T18:15:23.680Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "categoria"
+      ],
+      "object_id": "3",
+      "object_repr": "Transporte",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-01-25T18:15:43.499Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "categoria"
+      ],
+      "object_id": "4",
+      "object_repr": "Alimentação",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-01-25T18:16:22.908Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "1",
+      "object_repr": "Tag: Conforto (Categoria: Hospedagem)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-01-25T18:17:10.310Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "2",
+      "object_repr": "Tag: Café da manhã (Categoria: Hospedagem)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2026-01-25T18:17:37.569Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "3",
+      "object_repr": "Tag: Piscina (Categoria: Hospedagem)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2026-01-25T18:17:57.516Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "4",
+      "object_repr": "Tag: Wi-Fi (Categoria: Hospedagem)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2026-01-25T18:18:16.206Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "5",
+      "object_repr": "Tag: Estacionamento (Categoria: Hospedagem)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2026-01-25T18:18:45.157Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "6",
+      "object_repr": "Tag: Praia (Categoria: Lazer)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2026-01-25T18:20:06.050Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "7",
+      "object_repr": "Tag: Aventura (Categoria: Lazer)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2026-01-25T18:20:22.755Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "8",
+      "object_repr": "Tag: Família (Categoria: Lazer)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2026-01-25T18:20:37.114Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "9",
+      "object_repr": "Tag: Ecoturismo (Categoria: Lazer)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2026-01-25T18:20:55.368Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "10",
+      "object_repr": "Tag: Noturno (Categoria: Lazer)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2026-01-25T18:21:17.560Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "11",
+      "object_repr": "Tag: Frutos do mar (Categoria: Alimentação)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2026-01-25T18:21:32.041Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "12",
+      "object_repr": "Tag: Vegano (Categoria: Alimentação)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2026-01-25T18:21:45.195Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "13",
+      "object_repr": "Tag: Buffet (Categoria: Alimentação)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2026-01-25T18:22:01.886Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "14",
+      "object_repr": "Tag: À la carte (Categoria: Alimentação)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2026-01-25T18:22:31.675Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "15",
+      "object_repr": "Tag: Vista panorâmica (Categoria: Alimentação)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2026-01-25T18:23:34.367Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "16",
+      "object_repr": "Tag: Transfer (Categoria: Transporte)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2026-01-25T18:23:54.788Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "17",
+      "object_repr": "Tag: Ar condicionado (Categoria: Transporte)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2026-01-25T18:24:21.300Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "18",
+      "object_repr": "Tag: Guia (Categoria: Transporte)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2026-01-25T18:24:44.858Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "19",
+      "object_repr": "Tag: Flexível (Categoria: Transporte)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2026-01-25T18:25:04.219Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "tag"
+      ],
+      "object_id": "20",
+      "object_repr": "Tag: Grupo (Categoria: Transporte)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2026-01-25T18:25:24.960Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "estado"
+      ],
+      "object_id": "1",
+      "object_repr": "Rio Grande do Norte (RN)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2026-01-25T18:25:33.416Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "estado"
+      ],
+      "object_id": "2",
+      "object_repr": "Paraíba (PB)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2026-01-25T18:26:51.689Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "cidade"
+      ],
+      "object_id": "1",
+      "object_repr": "Natal - RN",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2026-01-25T18:28:05.647Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "cidade"
+      ],
+      "object_id": "2",
+      "object_repr": "Parnamirim - RN",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2026-01-25T18:28:24.596Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "cidade"
+      ],
+      "object_id": "3",
+      "object_repr": "Pipa - RN",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2026-01-25T18:28:51.458Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "cidade"
+      ],
+      "object_id": "4",
+      "object_repr": "São Miguel do Gostoso - RN",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2026-01-25T18:30:37.866Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "cidade"
+      ],
+      "object_id": "5",
+      "object_repr": "João Pessoa - PB",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2026-01-25T18:33:10.162Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "1",
+      "object_repr": "Rua dos Pintassilgos, 70 - 59067300",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2026-01-25T18:33:32.480Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "2",
+      "object_repr": "Avenida Praia de Ponta Negra, 8888 - 59090100",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2026-01-25T18:34:02.218Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "3",
+      "object_repr": "Avenida Engenheiro Roberto Freire, 3500 - 59092100",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2026-01-25T18:34:29.409Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "4",
+      "object_repr": "Avenida Senador Salgado Filho, 1906 - 59014100",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2026-01-25T18:34:49.408Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "5",
+      "object_repr": "Avenida Hermes da Fonseca, 739 - 59082100",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2026-01-25T18:35:44.280Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "6",
+      "object_repr": "Rua Doutor José Peroba, 77 - 59090200",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2026-01-25T18:36:30.938Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "7",
+      "object_repr": "Avenida Erivan França, 240 - 59090000",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2026-01-25T18:37:00.691Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "8",
+      "object_repr": "Rua da Praia, 456 - 59163000",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2026-01-25T18:37:20.092Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "9",
+      "object_repr": "Avenida dos Corais, 789 - 59585000",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2026-01-25T18:37:58.531Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "10",
+      "object_repr": "Via Costeira, 4233 - 59090300",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2026-01-25T18:38:21.141Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "11",
+      "object_repr": "Avenida Prudente de Morais, 5121 - 59014200",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2026-01-25T18:38:45.583Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "12",
+      "object_repr": "Rua Praia de Genipabu, 2355 - 59090150",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.958Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "3",
+      "object_repr": "Avenida Engenheiro Roberto Freire, 3500 - 59092100",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.958Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "7",
+      "object_repr": "Avenida Erivan França, 240 - 59090000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.958Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "5",
+      "object_repr": "Avenida Hermes da Fonseca, 739 - 59082100",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "2",
+      "object_repr": "Avenida Praia de Ponta Negra, 8888 - 59090100",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "11",
+      "object_repr": "Avenida Prudente de Morais, 5121 - 59014200",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "4",
+      "object_repr": "Avenida Senador Salgado Filho, 1906 - 59014100",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "9",
+      "object_repr": "Avenida dos Corais, 789 - 59585000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "6",
+      "object_repr": "Rua Doutor José Peroba, 77 - 59090200",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "12",
+      "object_repr": "Rua Praia de Genipabu, 2355 - 59090150",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "8",
+      "object_repr": "Rua da Praia, 456 - 59163000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "1",
+      "object_repr": "Rua dos Pintassilgos, 70 - 59067300",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2026-01-25T18:55:52.959Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "localizacao",
+        "endereco"
+      ],
+      "object_id": "10",
+      "object_repr": "Via Costeira, 4233 - 59090300",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2026-01-25T19:02:56.525Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "17",
+      "object_repr": "Aluguel de Carro com Motorista - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2026-01-25T19:04:59.899Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "22",
+      "object_repr": "Apart Hotel Lagoa Nova - @hotel_praia - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2026-01-25T19:08:32.047Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "2",
+      "object_repr": "Bistrô Vegano Natal - @camaroes_rest - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2026-01-25T19:12:01.839Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "3",
+      "object_repr": "Buffet Tropical do Nordeste - @camaroes_rest - Ativo: NÃO",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2026-01-25T19:13:06.621Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "1",
+      "object_repr": "Camarões Restaurante Praia - @camaroes_rest - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2026-01-25T19:14:27.675Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "11",
+      "object_repr": "Festa no Chaplin Beer Garden - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2026-01-25T19:17:21.084Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "23",
+      "object_repr": "Hostel Mochileiro Natal - @hotel_praia - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2026-01-25T19:19:53.648Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "24",
+      "object_repr": "Hotel Boutique Centro Histórico - @hotel_praia - Ativo: NÃO",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2026-01-25T19:21:19.921Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "19",
+      "object_repr": "Hotel Praia Dourada - @hotel_praia - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2026-01-25T19:22:15.960Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "4",
+      "object_repr": "Mangai Restaurante - @camaroes_rest - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2026-01-25T19:22:50.207Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "8",
+      "object_repr": "Mergulho em Maracajaú - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2026-01-25T19:25:14.610Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "5",
+      "object_repr": "Mirante Sunset Restaurante - @camaroes_rest - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2026-01-25T19:26:06.965Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "12",
+      "object_repr": "Passeio Ecológico Parque das Dunas - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2026-01-25T19:27:15.944Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "7",
+      "object_repr": "Passeio de Buggy pelas Dunas - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2026-01-25T19:28:00.636Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "9",
+      "object_repr": "Passeio de Catamarã ao Pôr do Sol - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2026-01-25T19:29:31.993Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "20",
+      "object_repr": "Pousada Recanto do Sol - @hotel_praia - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2026-01-25T19:30:08.802Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "21",
+      "object_repr": "Resort All Inclusive Natal - @hotel_praia - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2026-01-25T19:31:55.200Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "10",
+      "object_repr": "Tour Histórico pelo Centro de Natal - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2026-01-25T19:32:59.437Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "15",
+      "object_repr": "Tour Privativo com Guia - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2026-01-25T19:34:05.614Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "13",
+      "object_repr": "Transfer Aeroporto Hotel - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2026-01-25T19:35:42.297Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "20",
+      "object_repr": "Pousada Recanto do Sol - @hotel_praia - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2026-01-25T19:38:55.529Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "16",
+      "object_repr": "Transfer Compartilhado Econômico - @buggytour - Ativo: NÃO",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2026-01-25T19:38:55.529Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "18",
+      "object_repr": "Transporte para Eventos e Congressos - @buggytour - Ativo: NÃO",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2026-01-25T19:39:31.939Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "6",
+      "object_repr": "Tábua de Carne Premium - @camaroes_rest - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2026-01-25T19:40:17.713Z",
+      "user": [
+        "adm@adm.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": "14",
+      "object_repr": "Van Executiva para Grupos - @buggytour - Ativo: SIM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ativo\", \"Imagem capa\"]}}]"
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 3,
+    "fields": {
+      "nome": "Buffet Tropical do Nordeste",
+      "descricao": "Buffet completo com comida nordestina e internacional. Sistema self-service com grande variedade de saladas, pratos quentes, sobremesas e bebidas. Ideal para almoço em família.",
+      "capacidade_maxima": 120,
+      "preco_minimo": "25.00",
+      "preco_maximo": "45.00",
+      "ativo": false,
+      "imagem_capa": "",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T18:40:00.000Z",
+      "parceiro": [
+        "contato@camaroes.com.br"
+      ],
+      "categoria": 4,
+      "cidade": 1,
+      "endereco": 15,
+      "tags": [
+        13
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 16,
+    "fields": {
+      "nome": "Transfer Compartilhado Econômico",
+      "descricao": "Serviço de transfer compartilhado do aeroporto para região de Ponta Negra. Opção econômica e sustentável. Horários fixos de saída. Veículo confortável com ar condicionado.",
+      "capacidade_maxima": 8,
+      "preco_minimo": "25.00",
+      "preco_maximo": "40.00",
+      "ativo": false,
+      "imagem_capa": "",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T18:40:00.000Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 3,
+      "cidade": 1,
+      "endereco": 28,
+      "tags": [
+        16,
+        17,
+        20
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 18,
+    "fields": {
+      "nome": "Transporte para Eventos e Congressos",
+      "descricao": "Serviço especializado em transporte para eventos corporativos, congressos e convenções. Frota diversificada e motoristas capacitados. Atendimento personalizado para grupos.",
+      "capacidade_maxima": 50,
+      "preco_minimo": "500.00",
+      "preco_maximo": "1500.00",
+      "ativo": false,
+      "imagem_capa": "",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T18:40:00.000Z",
+      "parceiro": [
+        "contato@buggytour.com.br"
+      ],
+      "categoria": 3,
+      "cidade": 1,
+      "endereco": 30,
+      "tags": [
+        17,
+        20
+      ]
+    }
+  },
+  {
+    "model": "servicos.servico",
+    "pk": 24,
+    "fields": {
+      "nome": "Hotel Boutique Centro Histórico",
+      "descricao": "Hotel boutique charmoso no centro histórico de Natal. Quartos decorados com toques locais. Rooftop com vista privilegiada. Café da manhã gourmet incluso. Wi-Fi, ar condicionado e estacionamento conveniado.",
+      "capacidade_maxima": 25,
+      "preco_minimo": "280.00",
+      "preco_maximo": "450.00",
+      "ativo": false,
+      "imagem_capa": "",
+      "data_admissao": null,
+      "data_atualizacao": "2026-01-25T18:40:00.000Z",
+      "parceiro": [
+        "contato@hotelpraia.com"
+      ],
+      "categoria": 2,
+      "cidade": 1,
+      "endereco": 36,
+      "tags": [
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 1,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Excelente restaurante! Os frutos do mar são fresquíssimos e a vista para o mar é maravilhosa. O atendimento foi impecável e o ambiente muito agradável. Recomendo!",
+      "data_avaliacao": "2026-01-20T14:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 1
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 2,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Muito bom! A comida é deliciosa, especialmente o camarão na moranga. Preço um pouco salgado, mas vale a pena pela qualidade.",
+      "data_avaliacao": "2026-01-21T19:15:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 1
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 3,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Experiência maravilhosa! O restaurante tem um cardápio variado e tudo que provamos estava delicioso. A vista panorâmica é de tirar o fôlego.",
+      "data_avaliacao": "2026-01-22T20:45:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 1
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 4,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Melhor comida vegana que já comi! O cardápio é super criativo e saboroso. Ambiente moderno e acolhedor. Voltarei com certeza!",
+      "data_avaliacao": "2026-01-19T13:20:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 2
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 5,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Adorei! Mesmo não sendo vegano, fiquei impressionado com o sabor dos pratos. O hambúrguer vegano é incrível.",
+      "data_avaliacao": "2026-01-20T18:30:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 2
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 6,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Lugar perfeito para quem busca alimentação saudável sem abrir mão do sabor. Todos os pratos são bem temperados e apresentados lindamente.",
+      "data_avaliacao": "2026-01-21T12:15:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 2
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 7,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Buffet bem completo e variado. A comida nordestina é autêntica e saborosa. Bom custo-benefício para quem está com a família.",
+      "data_avaliacao": "2026-01-18T12:30:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 3
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 8,
+    "fields": {
+      "nota": "4.2",
+      "comentario": "Bom buffet com muitas opções. O ambiente fica cheio no almoço, mas o rodízio compensa. Pratos bem temperados.",
+      "data_avaliacao": "2026-01-19T13:45:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 3
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 9,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Ótima opção para um almoço em família. Grande variedade de pratos, sobremesas deliciosas e atendimento atencioso.",
+      "data_avaliacao": "2026-01-20T14:00:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 3
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 10,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "O Mangai é uma instituição em Natal! A comida regional é autêntica e deliciosa. O ambiente rústico é charmoso e acolhedor.",
+      "data_avaliacao": "2026-01-17T13:00:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 4
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 11,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Experiência incrível! A carne de sol é maravilhosa e a tapioca recheada é de outro mundo. Voltarei sempre!",
+      "data_avaliacao": "2026-01-18T14:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 4
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 12,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Buffet excelente com comida típica de verdade. O ambiente é lindo e o atendimento é muito bom. Preço justo pela qualidade.",
+      "data_avaliacao": "2026-01-19T12:45:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 4
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 13,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Vista espetacular do pôr do sol! A comida é de altíssima qualidade e o ambiente romântico é perfeito para ocasiões especiais.",
+      "data_avaliacao": "2026-01-21T20:00:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 5
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 14,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Jantar inesquecível! A vista panorâmica é deslumbrante e o cardápio é sofisticado. Música ao vivo de excelente qualidade.",
+      "data_avaliacao": "2026-01-22T21:15:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 5
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 15,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Lugar perfeito para um jantar romântico. O frutos do mar são frescos e muito bem preparados. Recomendo a lagosta!",
+      "data_avaliacao": "2026-01-23T19:30:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 5
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 16,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Churrascaria top! Os cortes são de primeira qualidade e o rodízio é bem servido. O buffet de acompanhamentos é excelente.",
+      "data_avaliacao": "2026-01-20T20:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 6
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 17,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Carnes de qualidade superior e bem maturadas. O atendimento é atencioso e o ambiente é sofisticado. Vale cada centavo!",
+      "data_avaliacao": "2026-01-21T19:45:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 6
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 18,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Melhor churrascaria da região! O picanha é suculenta e os cortes especiais são imperdíveis. Recomendo muito!",
+      "data_avaliacao": "2026-01-22T21:00:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 6
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 19,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Passeio incrível! O buggy nas dunas foi emocionante e o guia é super experiente. A descida de skibunda é imperdível!",
+      "data_avaliacao": "2026-01-18T16:00:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 7
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 20,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Experiência fantástica! As dunas de Genipabu são lindas e o passeio é bem organizado. Adorei o banho na lagoa!",
+      "data_avaliacao": "2026-01-19T17:30:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 7
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 21,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Passeio radical e divertido! O motorista é cuidadoso mas não perde a emoção. Recomendo para toda a família!",
+      "data_avaliacao": "2026-01-20T15:45:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 7
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 22,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Mergulho espetacular! Os parrachos de Maracajaú são impressionantes. Vimos muitos peixes coloridos e até tartarugas!",
+      "data_avaliacao": "2026-01-17T11:00:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 8
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 23,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Experiência única! O instrutor foi muito atencioso e me fez sentir seguro. A vida marinha é rica e colorida.",
+      "data_avaliacao": "2026-01-18T12:30:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 8
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 24,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Mergulho maravilhoso! Mesmo sendo minha primeira vez, me senti completamente confortável. Os equipamentos são de qualidade.",
+      "data_avaliacao": "2026-01-19T13:15:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 8
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 25,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Passeio romântico perfeito! O pôr do sol visto do catamarã é inesquecível. Petiscos e bebidas de qualidade a bordo.",
+      "data_avaliacao": "2026-01-20T19:00:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 9
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 26,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Navegação tranquila e agradável. A música ambiente cria um clima muito bom. Recomendo para casais!",
+      "data_avaliacao": "2026-01-21T20:15:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 9
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 27,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Experiência maravilhosa! O pôr do sol é lindo e o passeio é relaxante. O atendimento da tripulação é excelente.",
+      "data_avaliacao": "2026-01-22T18:30:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 9
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 28,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Tour muito interessante! Aprendi bastante sobre a história de Natal. O guia é super informado e carismático.",
+      "data_avaliacao": "2026-01-18T15:00:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 10
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 29,
+    "fields": {
+      "nota": "4.4",
+      "comentario": "Passeio cultural enriquecedor. A Fortaleza dos Reis Magos é linda e o Centro de Turismo tem boas opções de artesanato.",
+      "data_avaliacao": "2026-01-19T16:30:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 10
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 30,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Ótimo tour para conhecer a história local. O guia bilíngue facilita muito para turistas estrangeiros. Recomendo!",
+      "data_avaliacao": "2026-01-20T14:45:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 10
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 31,
+    "fields": {
+      "nota": "4.3",
+      "comentario": "Casa noturna com ambiente descontraído. As bandas locais são muito boas e a cerveja artesanal é excelente!",
+      "data_avaliacao": "2026-01-21T23:00:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 11
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 32,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Ótimo lugar para curtir a noite em Natal. Música ao vivo de qualidade e food trucks com opções variadas.",
+      "data_avaliacao": "2026-01-22T22:30:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 11
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 33,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Ambiente jovem e animado! A área externa é muito legal e tem sempre bandas diferentes. Vale a visita!",
+      "data_avaliacao": "2026-01-23T21:45:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 11
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 34,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Trilha ecológica maravilhosa! Vimos muitos animais silvestres e plantas nativas. O guia é muito conhecedor da fauna e flora.",
+      "data_avaliacao": "2026-01-17T10:00:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 12
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 35,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Passeio perfeito para quem ama natureza! O Parque das Dunas é lindo e bem preservado. Ideal para famílias.",
+      "data_avaliacao": "2026-01-18T11:30:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 12
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 36,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Experiência educativa e relaxante. A trilha é tranquila e o contato com a natureza é revigorante. Recomendo!",
+      "data_avaliacao": "2026-01-19T09:45:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 12
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 37,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Transfer pontual e confortável. Motorista educado e veículo limpo. Chegamos ao hotel sem stress algum!",
+      "data_avaliacao": "2026-01-20T10:00:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 13
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 38,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Serviço excelente! O motorista estava nos esperando no aeroporto com placa. Viagem tranquila e segura.",
+      "data_avaliacao": "2026-01-21T09:30:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 13
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 39,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Transfer executivo de qualidade. Carro novo com ar condicionado. Atendimento 24h é um diferencial importante!",
+      "data_avaliacao": "2026-01-22T11:15:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 13
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 40,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Van espaçosa e confortável para nosso grupo. O motorista foi super atencioso e nos ajudou com as malas.",
+      "data_avaliacao": "2026-01-19T14:00:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 14
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 41,
+    "fields": {
+      "nota": "4.4",
+      "comentario": "Ótima opção para grupos! A van é bem equipada e o motorista conhece bem a cidade. Preço justo.",
+      "data_avaliacao": "2026-01-20T15:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 14
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 42,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Serviço perfeito para nosso grupo de 12 pessoas. Veículo limpo, ar condicionado funcionando perfeitamente.",
+      "data_avaliacao": "2026-01-21T16:45:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 14
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 43,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Serviço VIP de altíssima qualidade! O guia bilíngue é extremamente profissional e o motorista é excelente. Vale cada centavo!",
+      "data_avaliacao": "2026-01-18T13:00:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 15
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 44,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Tour privativo impecável! Pudemos montar nosso próprio roteiro e o guia nos deu ótimas sugestões. Experiência personalizada.",
+      "data_avaliacao": "2026-01-19T14:30:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 15
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 45,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Serviço premium que vale a pena! Carro executivo confortável e guia muito educado. Flexibilidade total no roteiro.",
+      "data_avaliacao": "2026-01-20T12:15:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 15
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 46,
+    "fields": {
+      "nota": "4.3",
+      "comentario": "Opção econômica e eficiente. O transfer compartilhado é pontual e o preço é ótimo para quem está sozinho.",
+      "data_avaliacao": "2026-01-21T10:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 16
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 47,
+    "fields": {
+      "nota": "4.1",
+      "comentario": "Bom custo-benefício. O veículo é confortável e o motorista é educado. Chegamos no horário programado.",
+      "data_avaliacao": "2026-01-22T09:45:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 16
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 48,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Transfer compartilhado bem organizado. Conheci pessoas legais no caminho e economizei bastante. Recomendo!",
+      "data_avaliacao": "2026-01-23T11:00:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 16
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 49,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Serviço de aluguel excelente! O motorista é muito profissional e conhece bem a cidade. Carro confortável.",
+      "data_avaliacao": "2026-01-19T16:00:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 17
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 50,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Ótima opção para quem não quer dirigir. O motorista é pontual e atencioso. Veículo sempre limpo.",
+      "data_avaliacao": "2026-01-20T17:30:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 17
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 51,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Serviço de primeira! Alugamos por 3 dias e foi perfeito. Motorista educado e sempre disponível.",
+      "data_avaliacao": "2026-01-21T15:45:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 17
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 52,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Transporte para nosso congresso foi impecável! Frota diversificada e motoristas muito profissionais. Super recomendo!",
+      "data_avaliacao": "2026-01-17T18:00:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 18
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 53,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Serviço especializado e eficiente. Toda a logística do evento foi bem executada. Atendimento personalizado.",
+      "data_avaliacao": "2026-01-18T19:30:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 18
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 54,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Excelente organização para nosso evento corporativo. Todos os participantes elogiaram o transporte. Profissionalismo total!",
+      "data_avaliacao": "2026-01-19T17:15:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 18
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 55,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Hotel maravilhoso! Localização perfeita à beira-mar, quartos espaçosos e limpos. O café da manhã é farto e delicioso. Voltarei com certeza!",
+      "data_avaliacao": "2026-01-20T09:00:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 19
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 56,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Excelente hotel! A vista do quarto é linda, a piscina é aquecida e a academia tem bons equipamentos. Atendimento impecável.",
+      "data_avaliacao": "2026-01-21T10:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 19
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 57,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Hospedagem perfeita para família! As crianças adoraram a piscina e nós adoramos a tranquilidade. Estacionamento seguro é um plus!",
+      "data_avaliacao": "2026-01-22T11:45:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 19
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 58,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Pousada aconchegante e bem localizada. O café da manhã regional é uma delícia! Ambiente familiar e acolhedor.",
+      "data_avaliacao": "2026-01-19T08:30:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 20
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 59,
+    "fields": {
+      "nota": "4.4",
+      "comentario": "Ótimo custo-benefício! Quartos simples mas limpos e confortáveis. A localização em Ponta Negra é perfeita.",
+      "data_avaliacao": "2026-01-20T09:45:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 20
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 60,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Pousada charmosa com atendimento familiar. O café da manhã é caprichado e tem tapioca fresca. Recomendo!",
+      "data_avaliacao": "2026-01-21T08:15:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 20
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 61,
+    "fields": {
+      "nota": "5.0",
+      "comentario": "Resort espetacular! Tudo incluído de verdade, comida excelente, várias piscinas e estrutura impecável. Férias inesquecíveis!",
+      "data_avaliacao": "2026-01-18T10:00:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 21
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 62,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Melhor resort de Natal! A estrutura é completa, recreação infantil é excelente e os restaurantes são variados. Vale cada centavo!",
+      "data_avaliacao": "2026-01-19T11:30:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 21
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 63,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Resort de luxo com tudo que você precisa! Spa maravilhoso, beach service impecável. Não precisamos sair do resort!",
+      "data_avaliacao": "2026-01-20T12:45:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 21
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 64,
+    "fields": {
+      "nota": "4.7",
+      "comentario": "Apart hotel perfeito para longas estadias! A cozinha equipada nos permitiu economizar. Localização excelente em Lagoa Nova.",
+      "data_avaliacao": "2026-01-21T09:00:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 22
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 65,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Ótima opção para quem fica mais tempo. Apartamentos espaçosos, lavanderia disponível e perto de tudo. Recomendo!",
+      "data_avaliacao": "2026-01-22T10:30:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 22
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 66,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Apart hotel confortável com boa infraestrutura. A cozinha completa é muito útil. Próximo a shoppings e supermercados.",
+      "data_avaliacao": "2026-01-23T11:15:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 22
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 67,
+    "fields": {
+      "nota": "4.5",
+      "comentario": "Hostel bacana com ambiente jovem! Conheci viajantes do mundo todo. Cozinha compartilhada é bem equipada.",
+      "data_avaliacao": "2026-01-19T15:00:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 23
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 68,
+    "fields": {
+      "nota": "4.3",
+      "comentario": "Ótimo custo-benefício para mochileiros! O terraço tem vista legal e o pessoal é super receptivo. Ambiente descontraído.",
+      "data_avaliacao": "2026-01-20T16:30:00.000Z",
+      "rudiero": [
+        "gabriel@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 23
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 69,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Hostel limpo e organizado. A área comum é agradável e sempre tem gente legal para conversar. Café da manhã básico mas ok.",
+      "data_avaliacao": "2026-01-21T14:45:00.000Z",
+      "rudiero": [
+        "mateus@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 23
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 70,
+    "fields": {
+      "nota": "4.8",
+      "comentario": "Hotel boutique encantador! A decoração é linda e tem toques locais. O rooftop com vista para o centro histórico é maravilhoso!",
+      "data_avaliacao": "2026-01-18T12:00:00.000Z",
+      "rudiero": [
+        "isaac@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 24
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 71,
+    "fields": {
+      "nota": "4.6",
+      "comentario": "Hotel charmoso no coração de Natal. O café da manhã gourmet é excepcional. Localização perfeita para explorar o centro histórico.",
+      "data_avaliacao": "2026-01-19T13:30:00.000Z",
+      "rudiero": [
+        "joao@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 24
+    }
+  },
+  {
+    "model": "avaliacoes.avaliacao",
+    "pk": 72,
+    "fields": {
+      "nota": "4.9",
+      "comentario": "Experiência única em hotel boutique! Cada quarto tem sua personalidade. Atendimento personalizado e acolhedor. Adorei!",
+      "data_avaliacao": "2026-01-20T11:15:00.000Z",
+      "rudiero": [
+        "pedro@email.com"
+      ],
+      "content_type": [
+        "servicos",
+        "servico"
+      ],
+      "object_id": 24
+    }
+  }
+]

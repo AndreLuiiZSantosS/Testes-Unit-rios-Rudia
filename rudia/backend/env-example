@@ -1,0 +1,32 @@
+# Chave secreta do Django (gerar com python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())')
+DJANGO_SECRET_KEY="django-insecure-REPLACE_WITH_RANDOM_KEY"
+
+# Debug mode
+DEBUG=1
+
+# Log level do Django
+DJANGO_LOGLEVEL="DEBUG"
+
+# Engine do banco de dados
+DB_ENGINE="django.db.backends.postgresql"
+
+# Hosts permitidos (para dev pode ser localhost)
+ALLOWED_HOSTS="127.0.0.1,localhost"
+
+# Permite CORS de todos os domínios (apenas dev!)
+DJANGO_CORS_ALLOWED_ALL_ORIGINS=1
+
+# Configuração do banco de dados
+DATABASE_NAME="rudia"
+DATABASE_USERNAME="postgres"
+DATABASE_PASSWORD="postgres"
+DATABASE_HOST="localhost"
+DATABASE_PORT="5432"
+
+# Configuração padrão do Docker/Postgres (se for o caso)
+POSTGRES_DB="rudia"
+POSTGRES_USER="postgres"
+POSTGRES_PASSWORD="postgres"
+
+# Modo de desenvolvimento
+MOD_DEV=1

@@ -1,0 +1,83 @@
+# ----------------------
+# Django / Python
+# ----------------------
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+migrations/         # Versione se estiver em equipe/produção
+staticfiles/        # Arquivos coletados pelo collectstatic
+
+# ----------------------
+# Virtual environments
+# ----------------------
+.env*
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------------
+# Build / distribution
+# ----------------------
+build/
+dist/
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# ----------------------
+# Testing / coverage
+# ----------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache
+
+# ----------------------
+# Type checking
+# ----------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ----------------------
+# IDEs
+# ----------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ----------------------
+# Jupyter / notebooks
+# ----------------------
+.ipynb_checkpoints
+
+# ----------------------
+# Cython
+# ----------------------
+cython_debug/
+
+# ----------------------
+# Documentation
+# ----------------------
+docs/_build/
+site/
+
+# ----------------------
+# OS
+# ----------------------
+.DS_Store
+Thumbs.db
